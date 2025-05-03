@@ -1,0 +1,82 @@
+
+   --- Expanded Deck Component Count ---
+I's 12
+M's 24
+V's 13
+tot: 49
+
+
+    --- Expanded Netlist ---
+* C:\Users\Caleb\Desktop\School Folders\EE 493b Linear intrgrated circuits\Github Project Folder\EE493 Project 5\ee493_project5_part2 - Using Currents Instead.asc
+m:u1:n n002 n001 0 0 cmosn w=7e-06 l=7e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+m:u2:n n004 n003 0 0 cmosn w=7e-06 l=2e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+m:u3:n n006 n005 0 0 cmosn w=7e-06 l=1e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+vdd vdd 0 1
+v§0.7u vdd n002 0
+v§2u vdd n004 0
+v§10u vdd n006 0
+m:u4:n n020 n019 0 0 cmosn w=7e-06 l=7e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+m:u5:n n022 n021 0 0 cmosn w=7e-06 l=2e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+m:u6:n n024 n023 0 0 cmosn w=7e-06 l=1e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v§0.7uabv vdd n020 0
+v§2uabv vdd n022 0
+v§10uabv vdd n024 0
+m:u7:n n001 n001 0 0 cmosn w=7e-06 l=7e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias1 vdd n001 1e-06 
+m:u8:n n003 n003 0 0 cmosn w=7e-06 l=2e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias2 vdd n003 1e-06 
+m:u9:n n005 n005 0 0 cmosn w=7e-06 l=1e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias3 vdd n005 1e-06 
+m:u10:n n019 n019 0 0 cmosn w=7e-06 l=7e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias4 vdd n019 1e-05 
+m:u11:n n021 n021 0 0 cmosn w=7e-06 l=2e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias5 vdd n021 1e-05 
+m:u12:n n023 n023 0 0 cmosn w=7e-06 l=1e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias6 vdd n023 1e-05 
+m:u13:n n008 n007 0 0 cmosn w=7e-06 l=3.5e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v1 vdd n008 0
+m:u14:n n007 n007 0 0 cmosn w=7e-06 l=3.5e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias7 vdd n007 1e-06 
+m:u15:n n016 n015 0 0 cmosn w=7e-06 l=3.5e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v2 vdd n016 0
+m:u16:n n015 n015 0 0 cmosn w=7e-06 l=3.5e-07 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias8 vdd n015 1e-05 
+m:u17:n n010 n009 0 0 cmosn w=7e-06 l=5e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v3 vdd n010 0
+m:u18:n n009 n009 0 0 cmosn w=7e-06 l=5e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias9 vdd n009 1e-06 
+m:u19:n n018 n017 0 0 cmosn w=7e-06 l=5e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v4 vdd n018 0
+m:u20:n n017 n017 0 0 cmosn w=7e-06 l=5e-06 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias10 vdd n017 1e-05 
+m:u21:n n012 n011 0 0 cmosn w=7e-06 l=1.5e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v5 vdd n012 0
+m:u22:n n011 n011 0 0 cmosn w=7e-06 l=1.5e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias11 vdd n011 1e-06 
+m:u23:n n014 n013 0 0 cmosn w=7e-06 l=1.5e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+v6 vdd n014 0
+m:u24:n n013 n013 0 0 cmosn w=7e-06 l=1.5e-05 as=1.4e-11 ps=1.8e-05 ad=1.4e-11 pd=1.8e-05 
+ibias12 vdd n013 1e-05 
+.model cmosn nmos (level=8 version=3.1 tnom=27 tox=7.7e-9 xj=1e-7 nch=2.2e17 vth0=0.465403 k1=0.605685 k2=7.401855e-4 k3=100 k3b=-9.9978452 w0=3.104982e-5 nlx=2.718863e-7 dvt0w=0 dvt1w=0 dvt2w=0 dvt0=2.9399069 dvt1=0.8628462 dvt2=-0.3 u0=364.9848005 ua=-7.38738e-10 ub=2.285693e-18 uc=3.664402e-11 vsat=1.566234e5 a0=1.1469517 ags=0.1642206 b0=7.913741e-7 b1=5e-6 keta=1.59443e-3 a1=0 a2=0.4470956 rdsw=957.4487567 prwg=-0.075128 prwb=-0.1078364 wr=1 wint=1.510787e-7 lint=0 dwg=-5.692108e-9 dwb=5.225149e-9 voff=-0.0893518 nfactor=1.3113023 cit=0 cdsc=2.4e-4 cdscd=0 cdscb=0 eta0=1 etab=0.0295297 dsub=0.7823887 pclm=1.676311 pdiblc1=1.547328e-4 pdiblc2=4.724954e-3 pdiblcb=0.0767737 drout=3.365824e-4 pscbe1=7.16268e8 pscbe2=1e-3 pvag=3.079663e-3 delta=0.01 rsh=79.1 mobmod=1 prt=0 ute=-1.5 kt1=-0.11 kt1l=0 kt2=0.022 ua1=4.31e-9 ub1=-7.61e-18 uc1=-5.6e-11 at=3.3e4 wl=0 wln=1 ww=0 wwn=1 wwl=0 ll=0 lln=1 lw=0 lwn=1 lwl=0 capmod=2 xpart=0.5 cgdo=3.18e-10 cgso=3.18e-10 cgbo=1e-12 cj=9.324477e-4 pb=0.8162386 mj=0.362829 cjsw=2.809158e-10 pbsw=0.8 mjsw=0.1824357 cjswg=1.82e-10 pbswg=0.8 mjswg=0.1824357 cf=0 pvth0=-0.0279291 prdsw=-98.8829593 pk2=1.6222e-3 wketa=-7.135466e-4 lketa=3.68571e-4)
+.dc vdd 0 2.5 0.001
+.end
+
+
+Date: Wed Feb 26 17:39:19 2025
+Total elapsed time: 0.488 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 5009
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 38
+fillins = 0
+solver = Normal
+Avg thread counts: 3.7/0.0/3.4/2.2
+Matrix Compiler1:      44 opcodes  0.3/[0.2]/0.2
+Matrix Compiler2: 2.59 KB object code size  0.3/0.4/[0.2]
+

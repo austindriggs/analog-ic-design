@@ -1,0 +1,88 @@
+
+   --- Expanded Deck Component Count ---
+I's 4
+M's 14
+V's 7
+tot: 25
+
+
+    --- Expanded Netlist ---
+* C:\Users\caleb\OneDrive\Desktop\Classes\Spring 2025 Semester\EE 493B\GitHub Repository\EE-493\EE493 Project 7\Part1.asc
+m:u1:n n001 n001 v1 0 cmosn w=2e-05 l=1e-06 as=4e-11 ps=4.4e-05 ad=4e-11 pd=4.4e-05 
+m:u2:n v1 n001 n006 0 cmosn w=5e-06 l=1e-06 as=1e-11 ps=1.4e-05 ad=1e-11 pd=1.4e-05 
+m:u3:n n006 n006 0 0 cmosn w=5e-06 l=1e-06 as=1e-11 ps=1.4e-05 ad=1e-11 pd=1.4e-05 
+m:u4:n n002 v1 n004 0 cmosn w=1e-05 l=1e-06 as=2e-11 ps=2.4e-05 ad=2e-11 pd=2.4e-05 
+m:u5:n n004 n002 0 0 cmosn w=1e-06 l=1e-06 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+m:u6:n n005 n002 0 0 cmosn w=1e-06 l=1e-06 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+m:u7:n n003 v1 n005 0 cmosn w=1e-05 l=1e-06 as=2e-11 ps=2.4e-05 ad=2e-11 pd=2.4e-05 
+iref com n001 100µ
+iin com n002 10µ
+v§iout com n003 0
+vdd com 0 2.5
+m:u8:n n007 vb n011 0 cmosn w=1e-05 l=1e-06 as=2e-11 ps=2.4e-05 ad=2e-11 pd=2.4e-05 
+m:u9:n n011 n007 0 0 cmosn w=1e-06 l=1e-06 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+m:u10:n n012 n007 0 0 cmosn w=1e-06 l=1e-06 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+m:u11:n n008 vb n012 0 cmosn w=1e-05 l=1e-06 as=2e-11 ps=2.4e-05 ad=2e-11 pd=2.4e-05 
+iin1 com n007 10µ
+v§iout1 com n008 0
+m:u12:n n009 n009 0 0 cmosn w=1e-06 l=5e-06 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+m:u13:n n010 n009 0 0 cmosn w=1e-06 l=5e-06 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+iin2 com n009 10µ
+v§iout2 com n010 0
+vb1 vb 0 0
+m:u14:n p001 n013 0 0 cmosn w=1e-06 l=3.5e-07 as=2e-12 ps=6e-06 ad=2e-12 pd=6e-06 
+v1 n013 0 0
+v2 com p001 0
+.model cmosn nmos (level=8 version=3.1 tnom=27 tox=7.7e-9 xj=1e-7 nch=2.2e17 vth0=0.465403 k1=0.605685 k2=7.401855e-4 k3=100 k3b=-9.9978452 w0=3.104982e-5 nlx=2.718863e-7 dvt0w=0 dvt1w=0 dvt2w=0 dvt0=2.9399069 dvt1=0.8628462 dvt2=-0.3 u0=364.9848005 ua=-7.38738e-10 ub=2.285693e-18 uc=3.664402e-11 vsat=1.566234e5 a0=1.1469517 ags=0.1642206 b0=7.913741e-7 b1=5e-6 keta=1.59443e-3 a1=0 a2=0.4470956 rdsw=957.4487567 prwg=-0.075128 prwb=-0.1078364 wr=1 wint=1.510787e-7 lint=0 dwg=-5.692108e-9 dwb=5.225149e-9 voff=-0.0893518 nfactor=1.3113023 cit=0 cdsc=2.4e-4 cdscd=0 cdscb=0 eta0=1 etab=0.0295297 dsub=0.7823887 pclm=1.676311 pdiblc1=1.547328e-4 pdiblc2=4.724954e-3 pdiblcb=0.0767737 drout=3.365824e-4 pscbe1=7.16268e8 pscbe2=1e-3 pvag=3.079663e-3 delta=0.01 rsh=79.1 mobmod=1 prt=0 ute=-1.5 kt1=-0.11 kt1l=0 kt2=0.022 ua1=4.31e-9 ub1=-7.61e-18 uc1=-5.6e-11 at=3.3e4 wl=0 wln=1 ww=0 wwn=1 wwl=0 ll=0 lln=1 lw=0 lwn=1 lwl=0 capmod=2 xpart=0.5 cgdo=3.18e-10 cgso=3.18e-10 cgbo=1e-12 cj=9.324477e-4 pb=0.8162386 mj=0.362829 cjsw=2.809158e-10 pbsw=0.8 mjsw=0.1824357 cjswg=1.82e-10 pbswg=0.8 mjswg=0.1824357 cf=0 pvth0=-0.0279291 prdsw=-98.8829593 pk2=1.6222e-3 wketa=-7.135466e-4 lketa=3.68571e-4)
+.dc vb1 0.425 2.5 0.001
+.end
+
+.step width=1e-06
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step width=2e-06
+.step width=3e-06
+.step width=4e-06
+.step width=5e-06
+.step width=6e-06
+.step width=7e-06
+.step width=8e-06
+.step width=9e-06
+.step width=1e-05
+
+Date: Thu Apr  3 11:42:06 2025
+Total elapsed time: 3.110 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4733
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 24
+fillins = 0
+solver = Normal
+Avg thread counts: 2.4/0.0/2.2/1.6
+Matrix Compiler1: off  [0.3]/0.4/0.4
+Matrix Compiler2: 1.82 KB object code size  0.4/0.6/[0.3]
+
